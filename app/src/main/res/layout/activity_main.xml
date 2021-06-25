@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B388FF"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/android_cookie_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:scaleType="centerCrop"
+            android:src="@drawable/m_logo" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/title"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_size" />
+
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/phone" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:text="@string/address" />
+
+        <TextView
+            style="@style/TextStyle"
+            android:layout_marginBottom="16dp"
+            android:text="@string/descrption" />
+
+
+    </LinearLayout>
+</ScrollView>
+
